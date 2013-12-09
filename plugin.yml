@@ -1,0 +1,32 @@
+name: TagYouAreIt
+main: me.noraaron1.TagV2.Tag
+version: 0.1
+description: Allows players to play a "kick the can style" game of tag.
+commands:
+    tag:
+        description: Shows different tag command options.
+        usage: /<command>[new:join:quit:start:stop:who:list:tagged]
+    tagnew:
+        description: Creates a new game.
+        usage: /<command>
+    tagstart:
+        description: Starts the game.
+        usage: /<command>
+    tagstop:
+        description: Stops the game and teleports everyone back to their pre-join location.
+        usage: /<command>
+    tagjoin:
+        description: Joins the current game and teleports you to the game's location.
+        usage: /<command>
+    tagquit:
+        description: Quits the game and teleports you back to your pre-game location.
+        usage: /<command> 
+    tagwho:
+        description: Displays who is "it".
+        usage: /<command> only works if there is a game in progress.
+    taglist:
+        description: Lists all the game participants.
+        usage: /<command> only works if there is a game in progress.
+    tagtagged:
+        description: Lists all players who have been tagged in order from last to first.
+        usage: /<command> only works if players have been tagged.
